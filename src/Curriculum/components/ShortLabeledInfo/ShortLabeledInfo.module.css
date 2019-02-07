@@ -1,0 +1,12 @@
+
+.title {
+    color: white;
+}
+
+.labeledInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    font-size: 14px;
+    color: white;
+}

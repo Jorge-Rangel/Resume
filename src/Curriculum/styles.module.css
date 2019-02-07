@@ -1,0 +1,45 @@
+
+.main {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 5fr 10fr;
+    grid-template-areas: "sidebar maininfo";
+}
+
+.sidebar {
+    height: 6000px;
+    grid-area: sidebar;
+    background-color: #4198b1;
+
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas: ". middle .";
+}
+
+.sidebarContent {
+    grid-area: middle;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.maininfo {
+    grid-area: maininfo;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 90%;
+    background-color: #e8e8e8;
+    padding-left: 40px;
+}
+
+.paragraph {
+    text-align: justify;
+}
